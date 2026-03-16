@@ -1,10 +1,11 @@
-package com.example.azizaka.security;
+package org.example.task_managment_system.security;
 
 import lombok.RequiredArgsConstructor;
-import com.example.azizaka.entity.User;
-import com.example.azizaka.exception.NotFoundException;
-import com.example.azizaka.payload.ApiResponse;
-import com.example.azizaka.repository.UserRepository;
+
+import org.example.task_managment_system.entity.User;
+import org.example.task_managment_system.exception.NotFoundException;
+import org.example.task_managment_system.payload.ApiResponse;
+import org.example.task_managment_system.repository.UserRepository;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.http.HttpStatus;

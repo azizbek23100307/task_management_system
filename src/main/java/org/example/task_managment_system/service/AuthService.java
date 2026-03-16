@@ -1,13 +1,14 @@
-package com.example.azizaka.service;
+package org.example.task_managment_system.service;
 
 import lombok.RequiredArgsConstructor;
-import com.example.azizaka.entity.User;
-import com.example.azizaka.entity.enums.Role;
-import com.example.azizaka.payload.ApiResponse;
-import com.example.azizaka.payload.AuthLogin;
-import com.example.azizaka.payload.AuthRegister;
-import com.example.azizaka.repository.UserRepository;
-import com.example.azizaka.security.JwtProvider;
+
+import org.example.task_managment_system.entity.User;
+import org.example.task_managment_system.entity.enums.Role;
+import org.example.task_managment_system.payload.ApiResponse;
+import org.example.task_managment_system.payload.AuthLogin;
+import org.example.task_managment_system.payload.AuthRegister;
+import org.example.task_managment_system.repository.UserRepository;
+import org.example.task_managment_system.security.JwtProvider;
 import org.springframework.http.HttpStatus;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;

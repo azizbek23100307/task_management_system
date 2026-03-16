@@ -1,4 +1,4 @@
-package com.example.azizaka.entity.abs;
+package org.example.task_managment_system.entity.abs;
 
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;

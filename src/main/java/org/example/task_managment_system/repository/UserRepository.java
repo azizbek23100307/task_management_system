@@ -1,6 +1,6 @@
-package com.example.azizaka.repository;
+package org.example.task_managment_system.repository;
 
-import com.example.azizaka.entity.User;
+import org.example.task_managment_system.entity.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

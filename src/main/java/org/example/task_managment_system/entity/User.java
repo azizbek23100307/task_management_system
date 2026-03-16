@@ -1,11 +1,12 @@
-package com.example.azizaka.entity;
+package org.example.task_managment_system.entity;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.EnumType;
 import jakarta.persistence.Enumerated;
 import lombok.*;
-import com.example.azizaka.entity.enums.Role;
-import com.example.azizaka.entity.abs.AbsEntity;
+
+import org.example.task_managment_system.entity.abs.AbsEntity;
+import org.example.task_managment_system.entity.enums.Role;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
