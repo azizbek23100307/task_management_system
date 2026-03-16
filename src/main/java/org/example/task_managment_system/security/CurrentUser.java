@@ -1,4 +1,4 @@
-package com.example.azizaka.security;
+package org.example.task_managment_system.security;
 import org.springframework.security.core.annotation.AuthenticationPrincipal;
 
 import java.lang.annotation.*;

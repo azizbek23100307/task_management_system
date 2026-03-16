@@ -1,7 +1,7 @@
-package com.example.azizaka.exception;
+package org.example.task_managment_system.exception;
 
 
-import com.example.azizaka.payload.ApiResponse;
+import org.example.task_managment_system.payload.ApiResponse;
 
 public class NotFoundException extends RuntimeException{
     public NotFoundException (ApiResponse message){
