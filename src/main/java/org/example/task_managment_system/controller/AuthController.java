@@ -1,10 +1,11 @@
-package com.example.azizaka.controller;
+package org.example.task_managment_system.controller;
 
 import lombok.RequiredArgsConstructor;
-import com.example.azizaka.payload.ApiResponse;
-import com.example.azizaka.payload.AuthLogin;
-import com.example.azizaka.payload.AuthRegister;
-import com.example.azizaka.service.AuthService;
+
+import org.example.task_managment_system.payload.ApiResponse;
+import org.example.task_managment_system.payload.AuthLogin;
+import org.example.task_managment_system.payload.AuthRegister;
+import org.example.task_managment_system.service.AuthService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;

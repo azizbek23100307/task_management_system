@@ -1,4 +1,4 @@
-package com.example.azizaka.payload;
+package org.example.task_managment_system.payload;
 
 import lombok.*;
 import org.springframework.http.HttpStatus;

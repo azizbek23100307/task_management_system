@@ -1,4 +1,4 @@
-package com.example.azizaka.security;
+package org.example.task_managment_system.security;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Value;

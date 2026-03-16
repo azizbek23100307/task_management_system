@@ -1,10 +1,7 @@
-package com.example.azizaka.security;
+package org.example.task_managment_system.security;
 
-import io.jsonwebtoken.ExpiredJwtException;
-import io.jsonwebtoken.Jwts;
-import io.jsonwebtoken.SignatureAlgorithm;
-import io.jsonwebtoken.SignatureException;
-import com.example.azizaka.exception.JwtException;
+import io.jsonwebtoken.*;
+import org.example.task_managment_system.exception.JwtException;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 

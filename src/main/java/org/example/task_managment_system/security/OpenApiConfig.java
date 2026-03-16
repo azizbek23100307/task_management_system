@@ -1,4 +1,4 @@
-package com.example.azizaka.security;
+package org.example.task_managment_system.security;
 
 import io.swagger.v3.oas.annotations.OpenAPIDefinition;
 import io.swagger.v3.oas.annotations.enums.SecuritySchemeType;

@@ -1,9 +1,10 @@
-package com.example.azizaka.component;
+package org.example.task_managment_system.component;
 
 import lombok.RequiredArgsConstructor;
-import com.example.azizaka.entity.User;
-import com.example.azizaka.entity.enums.Role;
-import com.example.azizaka.repository.UserRepository;
+
+import org.example.task_managment_system.entity.User;
+import org.example.task_managment_system.entity.enums.Role;
+import org.example.task_managment_system.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.security.crypto.password.PasswordEncoder;
