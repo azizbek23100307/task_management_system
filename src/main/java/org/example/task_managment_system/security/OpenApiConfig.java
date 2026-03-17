@@ -9,11 +9,13 @@ import io.swagger.v3.oas.annotations.security.SecurityRequirement;
 import io.swagger.v3.oas.annotations.security.SecurityScheme;
 import org.springframework.context.annotation.Configuration;
 
+import java.sql.Array;
+
 @Configuration
 @OpenAPIDefinition(
         info = @Info(title = "Curer", version = "v1",
                 description = "This API just for learning Spring boot features",
-                contact = @Contact(name = "Sfera IT Solution", url = "http://sferaacedmy.uz", email = "admin@gmail.com"),
+                contact = @Contact(name = "Azizbek Backend", url = "http://azizbek/backend", email = "admin@gmail.com"),
                 license = @License(name = "Apache Foundation", url = "https://apache.org/")
         ),
         security = {
@@ -28,3 +30,4 @@ import org.springframework.context.annotation.Configuration;
 )
 public class OpenApiConfig {
 }
+
