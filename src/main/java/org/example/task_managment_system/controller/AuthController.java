@@ -1,5 +1,6 @@
 package org.example.task_managment_system.controller;
 
+import io.swagger.v3.oas.annotations.Operation;
 import lombok.RequiredArgsConstructor;
 
 import org.example.task_managment_system.payload.ApiResponse;
@@ -20,6 +21,7 @@ public class AuthController {
 
 
     @PostMapping("/register")
+    @Operation(summary = "Userlar ruyhatdan utish uchun api ")
     public ResponseEntity<ApiResponse> register(@RequestBody AuthRegister authRegister){
         ApiResponse apiResponse = authService.registerUser(authRegister);
         return ResponseEntity.ok(apiResponse);
@@ -28,6 +30,7 @@ public class AuthController {
 
 
     @PostMapping("/login")
+    @Operation(summary = "Ruyhatdan utgan user yoki admin tokwen olish uchun api")
     public ResponseEntity<ApiResponse> login(@RequestBody AuthLogin authLogin){
         ApiResponse apiResponse = authService.login(authLogin);
         return ResponseEntity.ok(apiResponse);
