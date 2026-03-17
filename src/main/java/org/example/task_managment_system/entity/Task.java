@@ -29,7 +29,7 @@ public class Task extends AbsEntity {
 
     @Enumerated(EnumType.STRING)
     @Column(nullable = false,length = 20)
-    private TaskPriority taskPriority;
+    private TaskPriority priority;
 
 
     private LocalDate dueDate;
